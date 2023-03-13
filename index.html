@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Leo Heck Web Development</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- <script type="text/javascript">
+			function loadEvents() {
+				var mailString;
+				function updateMailString() {
+					mailString = '?subject=' + encodeURIComponent($('#subject').val())
+						+ '&body=' + encodeURIComponent($('#text').val());
+					$('#mail-link').attr('href',  'mailto:leandroheck@gmail.com' + mailString);
+				}
+				$( "#subject" ).focusout(function() { updateMailString(); });
+				$( "#text" ).focusout(function() { updateMailString(); });
+				updateMailString();
+			}
+		</script> -->
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Leo Heck Web Development</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#one" class="scrolly">Services</a>
+								<!-- <ul>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul>
+									</li>
+								</ul> -->
+							</li>
+							<li><a href="#two" class="scrolly">Portfolio</a></li>
+							<li><a href="#form" class="scrolly">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Leo Heck</h2><h3>Web Development </h3>
+							<p>I'm a Web Developer who seeks to deliver <br>
+								the best product to my clients.</p>
+						</header>
+						<span class="image"><img src="images/macbook-coffee.jpeg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+
+			<section id="one" class="spotlight style3 left">
+				<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+				<div class="content">
+					<header>
+						<h2>Providing value to your brand</h2>
+						<p>Business and personal websites with care and purpose</p>
+					</header>
+					<p>I apply my client's ideas and aspirations into the development of a meaningful product to advance your online presence, either by creating a website from the ground up or by updating your current product for the mobile era.</p>
+					<ul class="actions">
+						<li><a href="#two" class="button">See Portfolio</a></li>
+					</ul>
+				</div>
+
+				<a href="#two" class="goto-next scrolly">Next</a>
+			</section>
+
+			<!-- Two -->
+
+			<section id="two" class="wrapper style1 special fade-up">
+				<div class="container">
+					<header class="major">
+						<h2>Here are some projects I worked on recently.</h2>
+						<p>These are a few of the websites I have completed in the past years.</p>
+					</header>
+					<div class="box alt">
+						<div class="row gtr-uniform">
+							<section class="col-4 col-6-medium col-12-xsmall">
+								<!-- <img src="images/thumbtonys.png" alt="" class="portfolio"> -->
+								<div class="portfolio1"></div>
+								<h3>Tony's Pizza</h3>
+								<p>A responsive restaurant website with a photo carousel of yummy pizzas.</p>
+								<ul class="actions">
+									<li class="port-button"><a href="http://tonyspizzanotl.netlify.app" class="button">View</a></li>
+								</ul>
+							</section>
+							<section class="col-4 col-6-medium col-12-xsmall">
+								<!-- <img src="images/thumbwedding.png" alt="" class="portfolio"> -->
+								<div class="portfolio2"></div>
+								<h3>Wedding Photography</h3>
+								<p>A beautiful portfolio displaying gorgeous wedding pictures in a modern canvas.</p>
+								<ul class="actions">
+									<li class="port-button"><a href="https://lhphotos.netlify.app" class="button">View</a></li>
+								</ul>
+							</section>
+							<section class="col-4 col-6-medium col-12-xsmall">
+								<!-- <img src="images/thumbaanin.png" alt="" class="portfolio"> -->
+								<div class="portfolio3"></div>
+								<h3>Company Intranet</h3>
+								<p>Easily accessible internal knowledge, searchable with autocomplete.</p>
+								<ul class="actions">
+									<li class="port-button"><a href="http://libraryintranet.netlify.app" class="button">View</a></li>
+								</ul>
+							</section>
+						</div>
+					</div>
+					<br><br><br>
+					<a href="#form" class="goto-next scrolly">Next</a>
+
+				</div>
+			</section>
+				
+			<!-- Form -->
+				<section id="form" class="wrapper style1 special fade-up backimage">
+					<div class="container left-text">
+						<h3>Let's start talking!</h3>
+						<p>Leave me a message here or send me an email at <a href="mailto:leandroheck@gmail.com">leandroheck@gmail.com</a></p>
+						<form name="contact" method="post" data-netlify="true">
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-6 col-12-xsmall">
+									<input type="text" name="name" id="name" value="" placeholder="Name" />
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<input type="email" name="email" id="email" value="" placeholder="Email" />
+								</div>
+
+								<div class="col-12">
+									<input type="text" name="subject" id="subject" value="" placeholder="Subject" />
+								</div>
+								
+								<div class="col-12">
+									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+								<div class="col-12">
+									<ul class="actions">
+										<li><input id="mail-link" type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</div>
+							</div>
+						</form> <br>
+						<a href="#header" class="goto-next goto-top scrolly">Next</a>
+
+					</div>
+				</section>
+
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<!-- <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
+						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Leo Heck. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
